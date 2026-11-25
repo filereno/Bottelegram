@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.mypy_cache/
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+.venv_linux/
+venv/
+env/
+
+# Credenciais e sessões do Telegram (Arquivos sensíveis)
+*.session
+*.session-journal
+
+# Variáveis de ambiente (Segredos)
+.env
+.env.*
+!.env.example
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
